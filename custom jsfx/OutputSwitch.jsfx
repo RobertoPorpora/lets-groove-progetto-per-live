@@ -1,0 +1,43 @@
+desc:Output Switch
+desc:Output Switch [Roberto Porpora]
+//tags: routing mixer
+//author: Roberto Porpora
+
+slider1:0<0,3,1{Stereo 1 + 2, Mono 1, Mono 2, Mono 3}>Destination
+
+in_pin:input 1
+in_pin:input 2
+
+out_pin:output 1
+out_pin:output 2
+out_pin:output 3
+
+@init
+
+@slider
+
+@sample
+
+slider1 == 0 ? (
+	spl0 = spl0;
+	spl1 = spl1;
+	spl2 = 0;
+);
+
+slider1 == 1 ? (
+	spl0 = spl0 + spl1;
+	spl1 = 0;
+	spl2 = 0;
+);
+
+slider1 == 2 ? (
+	spl1 = spl0 + spl1;
+	spl0 = 0;
+	spl2 = 0;
+);
+
+slider1 == 3 ? (
+	spl2 = spl0 + spl1;
+	spl0 = 0;
+	spl1 = 0;
+);

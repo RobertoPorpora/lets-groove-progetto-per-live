@@ -1,0 +1,570 @@
+<REAPER_PROJECT 0.1 "7.39/win64" 1776109860
+  RIPPLE 0 1
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 129
+  ENVATTACH 0
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  ENVFADESZ10 40
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 0
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 0 30 0 0 0
+  CURSOR 1536
+  ZOOM 0.09797440870654 0 0
+  VZOOMEX 14.75961494 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 1
+  LOOPGRAN 0 4
+  RECORD_PATH "files" ""
+  <RECORD_CFG
+    ZXZhdxAAAQ==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 10 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    ZXZhdxAAAQ==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    BEATLEN 4
+    FREQ 800 1600 1
+    SAMPLES "" "" "" ""
+    SPLIGNORE 0 0
+    SPLDEF 2 660 "" 0 ""
+    SPLDEF 3 440 "" 0 ""
+    PATTERN 0 169
+    PATTERNSTR ABBB
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4 0
+  PLAYRATE 1 0 0.25 4
+  SELECTION 0 0
+  SELECTION2 0 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 1 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {01050C9C-ADD1-4345-AF61-1DE3138B811C}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {97BF6767-696C-4A9A-A001-0DF96412DF8A}
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  MARKER 1 0 "" 8 0 1 R {7A412481-A5AA-40FA-9D62-47B59A86400C} 0
+  MARKER 1 4 "" 1 0 1 R {20A14ECE-E3DD-4815-87FD-122D971C867A} 0
+  MARKER 1 1781.1586167800458 "" 1
+  MARKER 2 1994.1395654762164 "" 1 0 1 R {25B15DEB-4517-41C7-A6CD-18305324B20A} 0
+  MARKER 2 3838 "" 1
+  MARKER 2 1994.1395654762164 "" 0 0 1 R {05A29300-0B17-405A-A0E7-6C62B57972EB} 0
+  <PROJBAY
+  >
+  <TRACK {BE045458-5B9D-4CC0-8139-BE2875F9B7E8}
+    NAME Jazz
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 1
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {BE045458-5B9D-4CC0-8139-BE2875F9B7E8}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 4
+      SNAPOFFS 0
+      LENGTH 178.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0.01 1 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4FB5A597-B017-46D1-8308-691C6DEE1FAA}
+      IID 1
+      NAME royalty-free-jazz-midnight-mosaic-360374.mp3
+      VOLPAN 1 0 0.469706 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7BAAFD99-ADF2-4CAD-A329-9F0977DCCCE8}
+      <SOURCE MP3
+        FILE "files\royalty free music\royalty-free-jazz-midnight-mosaic-360374.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 181.5
+      SNAPOFFS 0
+      LENGTH 216.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 1 1 1 0 0
+      FADEOUT 1.1 0.01 1 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BACA8A4B-CCEB-469B-934A-D08765D914A5}
+      IID 2
+      NAME background-jazz-golden-whisper-358520.mp3
+      VOLPAN 1 0 0.484824 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A59A85FB-E534-4B5C-810B-B6D835CEF860}
+      <SOURCE MP3
+        FILE "files\royalty free music\background-jazz-golden-whisper-358520.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 397
+      SNAPOFFS 0
+      LENGTH 219.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 1 1 1 0 0
+      FADEOUT 1.1 0.01 1 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {181286B4-8E74-4AF1-B9DC-598BE66E760D}
+      IID 3
+      NAME royalty-free-jazz-velvet-horizon-360368.mp3
+      VOLPAN 1 0 0.404839 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {09512F33-C873-4B3C-BED4-087E7F35E35C}
+      <SOURCE MP3
+        FILE "files\royalty free music\royalty-free-jazz-velvet-horizon-360368.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 615.5
+      SNAPOFFS 0
+      LENGTH 91
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 1 1 1 0 0
+      FADEOUT 1.1 0.01 1 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F97872D8-A4DA-4659-9E84-C939C43F6DAB}
+      IID 4
+      NAME royalty-free-jazz-chardonnay-dreams-355585.mp3
+      VOLPAN 1 0 0.495929 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3C54BE63-86F4-46E9-B47B-6E8389117FF2}
+      <SOURCE MP3
+        FILE "files\royalty free music\royalty-free-jazz-chardonnay-dreams-355585.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 705.5
+      SNAPOFFS 0
+      LENGTH 215
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 1 1 1 0 0
+      FADEOUT 1.1 0.01 2.5 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {889A838D-DB92-4449-AEF6-7C5CFC7F4546}
+      IID 5
+      NAME royalty-free-jazz-cocoa-breeze-360382.mp3
+      VOLPAN 1 0 0.408084 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {64543B1A-BDE4-4EA9-BC63-13BF9E5809D6}
+      <SOURCE MP3
+        FILE "files\royalty free music\royalty-free-jazz-cocoa-breeze-360382.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 918
+      SNAPOFFS 0
+      LENGTH 216
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 2.5 1 1 0 0
+      FADEOUT 1.1 0.01 2 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7062B2BF-1CBF-4834-9152-D8EC21DB4D53}
+      IID 6
+      NAME youtube-chill-jazz-dusky-streetlights-367573.mp3
+      VOLPAN 1 0 0.545311 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1D1DCE29-230D-4F77-ADC5-D736E9E20B0D}
+      <SOURCE MP3
+        FILE "files\royalty free music\youtube-chill-jazz-dusky-streetlights-367573.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 1132
+      SNAPOFFS 0
+      LENGTH 214
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 2 1 1 0 0
+      FADEOUT 1.1 0.01 1 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {853AD959-23F1-442D-A453-A3A10D0534C5}
+      IID 7
+      NAME royalty-free-jazz-jazz-in-bloom-360373.mp3
+      VOLPAN 1 0 0.560066 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1E3EB5E1-3720-42CB-A0AA-9F90D163AD54}
+      <SOURCE MP3
+        FILE "files\royalty free music\royalty-free-jazz-jazz-in-bloom-360373.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 1345
+      SNAPOFFS 0
+      LENGTH 240.00097916666664
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 1 1 1 0 0
+      FADEOUT 1.1 0 3.00097916666664 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FB032C35-9683-4B12-A10C-F3E3A3644BD0}
+      IID 8
+      NAME royalty-free-jazz-velvet-steps-355581.mp3
+      VOLPAN 1 0 0.558443 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {04D98D77-1AB7-48B7-860B-4B5BC5AAE5BD}
+      <SOURCE MP3
+        FILE "files\royalty free music\royalty-free-jazz-velvet-steps-355581.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 1582
+      SNAPOFFS 0
+      LENGTH 199.1586167800458
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 3.00097916666664 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CFF05E8F-4A79-41B0-8FF8-A61B9648ABFE}
+      IID 9
+      NAME royalty-free-jazz-sunset-reverie-360384.mp3
+      VOLPAN 1 0 0.564266 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {253253AB-5FE6-48B8-B9D4-F2B6E56A2958}
+      <SOURCE MP3
+        FILE "files\royalty free music\royalty-free-jazz-sunset-reverie-360384.mp3" 1
+      >
+    >
+  >
+  <TRACK {16FEA428-E013-4EB2-BC33-4380EB4F6773}
+    NAME "Pop rock"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {16FEA428-E013-4EB2-BC33-4380EB4F6773}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 1994.1395654762164
+      SNAPOFFS 0
+      LENGTH 191
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0 2.5 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {37B1B725-5E60-4826-A100-B19CF32E6A4D}
+      IID 10
+      NAME youtube-folk-music-river-knows-my-name-366869.mp3
+      VOLPAN 1 0 0.466608 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E4FA09C8-7988-4B47-988F-9F3E9A5FB1D4}
+      <SOURCE MP3
+        FILE "files\royalty free music\youtube-folk-music-river-knows-my-name-366869.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 2182.6395654762164
+      SNAPOFFS 0
+      LENGTH 123.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 2.5 1 1 0 0
+      FADEOUT 1.1 0 1.5 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {38836A28-22B7-45A3-A23E-89F5D9EF7EC0}
+      IID 11
+      NAME youtube-folk-music-fields-we-once-knew-366888.mp3
+      VOLPAN 1 0 0.481651 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {663B3FB8-46D0-4276-8D02-E7D5CDC78447}
+      <SOURCE MP3
+        FILE "files\royalty free music\youtube-folk-music-fields-we-once-knew-366888.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 2304.6395654762164
+      SNAPOFFS 0
+      LENGTH 261.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 1.5 1 1 0 0
+      FADEOUT 1.1 0 1 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {98CFF875-40BD-4B05-B99C-8D36662BA845}
+      IID 12
+      NAME neon-dreams-90s-synthwave-344049.mp3
+      VOLPAN 1 0 0.723443 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6829A8AE-A274-4597-9612-E6BD23D874D0}
+      <SOURCE MP3
+        FILE "files\royalty free music\neon-dreams-90s-synthwave-344049.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 2565.1395654762164
+      SNAPOFFS 0
+      LENGTH 275.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 1 1 1 0 0
+      FADEOUT 1.1 0 1 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {11C094E4-1CFC-449B-8FD9-B7477F9F28F7}
+      IID 13
+      NAME midnight-run-90x27s-synthwave-344050.mp3
+      VOLPAN 1 0 0.550713 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7EA92F23-FDDB-41F7-A0D2-D0B384DDC12F}
+      <SOURCE MP3
+        FILE "files\royalty free music\midnight-run-90x27s-synthwave-344050.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 2839.6395654762164
+      SNAPOFFS 0
+      LENGTH 173.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 1 1 1 0 0
+      FADEOUT 1.1 0 0.5 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AC93E947-0035-43C2-AC9B-6DB058B665C4}
+      IID 14
+      NAME ki-instrumental-pop-rock-369971.mp3
+      VOLPAN 1 0 0.625485 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {100B14D0-C39E-4F07-A98A-DD2DA51EA752}
+      <SOURCE MP3
+        FILE "files\royalty free music\ki-instrumental-pop-rock-369971.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 3012.6395654762164
+      SNAPOFFS 0
+      LENGTH 170.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 0.5 1 1 0 0
+      FADEOUT 1.1 0 1 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BE95B88E-1139-4849-B94D-B703F159E591}
+      IID 15
+      NAME uplifting-pop-rock-summer-251670.mp3
+      VOLPAN 1 0 0.692883 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3D7F093C-B9D7-4306-BF42-421A50BCCC72}
+      <SOURCE MP3
+        FILE "files\royalty free music\uplifting-pop-rock-summer-251670.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 3182.1395654762164
+      SNAPOFFS 0
+      LENGTH 213
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 1 1 1 0 0
+      FADEOUT 1.1 0 1 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8F9D380E-C8EE-4BCE-A527-90F87EDEBDE4}
+      IID 16
+      NAME ki-instrumental-pop-rock-337480.mp3
+      VOLPAN 1 0 0.658182 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2E77E5C9-4A98-45D7-91D6-5B6F8BDF0838}
+      <SOURCE MP3
+        FILE "files\royalty free music\ki-instrumental-pop-rock-337480.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 3394.1395654762164
+      SNAPOFFS 0
+      LENGTH 145.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 1 1 1 0 0
+      FADEOUT 1.1 0 0.5 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {520AAC43-552C-4E8F-A0E2-0814982AF41B}
+      IID 17
+      NAME happy-pop-country-village-rock-250547.mp3
+      VOLPAN 1 0 0.562459 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D8769725-16B7-4923-979A-DCF368C4F8B7}
+      <SOURCE MP3
+        FILE "files\royalty free music\happy-pop-country-village-rock-250547.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 3539.1395654762164
+      SNAPOFFS 0
+      LENGTH 115.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 0.5 1 1 0 0
+      FADEOUT 1.1 0 1 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F840761E-97EB-4FC3-A83C-BBA4258E8A29}
+      IID 18
+      NAME uplifting-pop-rock-chasing-the-sun-251679.mp3
+      VOLPAN 1 0 0.650616 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {270CCBE6-B28E-4C57-B182-B0DA65FDC40F}
+      <SOURCE MP3
+        FILE "files\royalty free music\uplifting-pop-rock-chasing-the-sun-251679.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 3653.6395654762164
+      SNAPOFFS 0
+      LENGTH 184.21657596367049
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 1 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {628732FF-7782-4B24-A91B-B62B8E3EF864}
+      IID 19
+      NAME ki-instrumental-pop-rock-337495.mp3
+      VOLPAN 1 0 0.660734 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {79248E7E-DC43-4CBE-ABF5-D0196061DF33}
+      <SOURCE MP3
+        FILE "files\royalty free music\ki-instrumental-pop-rock-337495.mp3" 1
+      >
+    >
+  >
+>
