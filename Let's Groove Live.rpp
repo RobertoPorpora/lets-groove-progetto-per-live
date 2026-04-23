@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.39/win64" 1776114002
+<REAPER_PROJECT 0.1 "7.39/win64" 1776937281
   RIPPLE 0 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 129
@@ -12,9 +12,9 @@
   MAXPROJLEN 0 0
   GRID 3199 8 1 8 1 0 0 0
   TIMEMODE 1 5 3 30 0 0 0
-  CURSOR 183.36990595611286
-  ZOOM 35.16048927194118 5860 0
-  VZOOMEX 6.3125 0
+  CURSOR 7.58620689655172
+  ZOOM 0.41305895065312 0 0
+  VZOOMEX 6.3125 141
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -35,6 +35,7 @@
   RENDER_ADDTOPROJ 0
   RENDER_STEMS 1
   RENDER_DITHER 3
+  RENDER_TRIM 0 0 0 0
   TIMELOCKMODE 2
   TEMPOENVLOCKMODE 1
   ITEMMIX 1
@@ -179,7 +180,7 @@
     BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -210,7 +211,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 0.17602108480493 0 -1 -1 1
+    VOLPAN 1 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -230,9 +231,9 @@
     MIDIOUT -1
     MAINSEND 1 0
     <FXCHAIN
-      WNDRECT -1633 189 730 630
+      WNDRECT -1633 189 721 202
       SHOW 0
-      LASTSEL 0
+      LASTSEL 1
       DOCKED 0
       BYPASS 0 0 0
       <VST "VSTi: ReaSamplOmatic5000 (Cockos)" reasamplomatic.dll 0 "" 1920167789<56535472736F6D72656173616D706C6F> ""
@@ -241,10 +242,17 @@
         OCByZW5kZXIgMDAxLndhdgAAAAAAAADwPwAAAAAAAOA/AAAAoEAZ4T4AAAAAAAAAAAAAAAAAAPA/mpmZmZmZsT/NzMzMzMzrPwAAAAAAAAAAHMdxHMdx3D/8qfHSTWJA
         P/yp8dJNYkA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAADgPwEAAAAAAAAAAAAAAAAAAAAAAPA/QAAAAFVVVVVVVcU//////wgEAoFAIIA/AAAA
         AAAA8D8AAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzqQhIRplkD8AAAAAAADwP/yp8dJNYjA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AFByb2dyYW0gMQAQAAAA
+        AAAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {41D5DB9C-ADE4-43BF-91AF-BC92761B73DE}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS utility/volume_pan_sample_accurate_auto ""
+        -15 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {F2D557CB-7C62-4C0C-B5D5-AF645AC3FAEB}
       WAK 0 0
     >
     <ITEM
@@ -848,7 +856,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 0.54681954087608 0 -1 -1 1
+    VOLPAN 1 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -868,9 +876,9 @@
     MIDIOUT -1
     MAINSEND 1 0
     <FXCHAIN
-      WNDRECT -1601 221 730 630
+      WNDRECT -1601 221 721 202
       SHOW 0
-      LASTSEL 0
+      LASTSEL 1
       DOCKED 0
       BYPASS 0 0 0
       <VST "VSTi: ReaSamplOmatic5000 (Cockos)" reasamplomatic.dll 0 "" 1920167789<56535472736F6D72656173616D706C6F> ""
@@ -879,10 +887,17 @@
         NiByZW5kZXIgMDAxLndhdgAAAAAAAADwPwAAAAAAAOA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA/mpmZmZmZsT/NzMzMzMzrPwAAAAAAAAAAHMdxHMdx3D/8qfHSTWJA
         P/yp8dJNYkA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbH6iUfP/7z8AAAAAAADgPwEAAAAAAAAAAAAAAAAAAAAAAPA/QAAAAFVVVVVVVcU//////wgEAoFAIIA/AAAA
         AAAA8D8AAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzqQhIRplkD8AAAAAAADwP/yp8dJNYjA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AFByb2dyYW0gMQAQAAAA
+        AAAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {0CA7B742-2C7D-4EB1-9234-55CF1863566C}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS utility/volume_pan_sample_accurate_auto ""
+        -5 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {DBE5DFAC-6E22-4271-ABDF-56E2E24BC66F}
       WAK 0 0
     >
     <ITEM
@@ -1838,7 +1853,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 0.29516224459529 0 -1 -1 1
+    VOLPAN 1 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -1858,10 +1873,17 @@
     MIDIOUT -1
     MAINSEND 1 0
     <FXCHAIN
-      WNDRECT -1569 253 716 166
+      WNDRECT -1569 253 721 166
       SHOW 0
       LASTSEL 1
       DOCKED 0
+      BYPASS 0 0 0
+      <JS utility/volume_pan_sample_accurate_auto ""
+        -10 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {D8E5767B-C09F-4C2D-96CD-D53E763D0257}
+      WAK 0 0
       BYPASS 0 0 0
       <JS robertoporpora/OutputSwitch.jsfx ""
         0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2086,7 +2108,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -2244,7 +2266,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -2358,7 +2380,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -2439,7 +2461,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 0.16829929582119 0 -1 -1 1
+    VOLPAN 1 0 -1 -1 1
     MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -2447,7 +2469,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -2459,10 +2481,17 @@
     MIDIOUT -1
     MAINSEND 1 0
     <FXCHAIN
-      WNDRECT -1521 143 716 302
+      WNDRECT -1521 143 721 166
       SHOW 0
-      LASTSEL 0
+      LASTSEL 1
       DOCKED 0
+      BYPASS 0 0 0
+      <JS utility/volume_pan_sample_accurate_auto ""
+        -15 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {1A56B743-3244-4149-B22D-6EAE06A57F06}
+      WAK 0 0
       BYPASS 0 0 0
       <JS robertoporpora/OutputSwitch.jsfx ""
         3 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2802,7 +2831,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {D5E3575C-89B8-4386-9B5C-D919FEC3EE35}
       IID 79
       NAME "01-COUNT IN-250217_2209.wav"
@@ -3625,6 +3654,7 @@
     MIDIOUT -1
     MAINSEND 1 0
     <FXCHAIN
+      WNDRECT -1537 285 655 408
       SHOW 0
       LASTSEL 0
       DOCKED 0
@@ -4201,7 +4231,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 0.26529707233193 0 -1 -1 1
+    VOLPAN 1 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -4220,6 +4250,19 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 24 52 721 202
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS utility/volume_pan_sample_accurate_auto ""
+        -11 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {815B40EF-62C5-4A3A-991F-883C886B7F04}
+      WAK 0 0
+    >
     <ITEM
       POSITION 942.92964846414372
       SNAPOFFS 0
@@ -4315,7 +4358,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 1 0 -1 -1 1
+    VOLPAN 1.08695635014794 0 -1 -1 1
     MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -4335,10 +4378,17 @@
     MIDIOUT -1
     MAINSEND 1 0
     <FXCHAIN
-      WNDRECT 24 52 716 202
+      WNDRECT 24 52 721 166
       SHOW 0
-      LASTSEL 0
+      LASTSEL 1
       DOCKED 0
+      BYPASS 0 0 0
+      <JS utility/volume_pan_sample_accurate_auto ""
+        1 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {9CC97D20-7337-445B-A2D3-930CB40C9130}
+      WAK 0 0
       BYPASS 0 0 0
       <JS robertoporpora/OutputSwitch.jsfx ""
         0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -4704,8 +4754,9 @@
     MIDIOUT -1
     MAINSEND 1 0
     <FXCHAIN
+      WNDRECT 56 84 655 408
       SHOW 0
-      LASTSEL 1
+      LASTSEL 0
       DOCKED 0
       BYPASS 0 0 0
       <JS robertoporpora/OutputSwitch.jsfx ""
@@ -5262,7 +5313,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 0.77019387072009 0 -1 -1 1
+    VOLPAN 1 0 -1 -1 1
     MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -5282,10 +5333,17 @@
     MIDIOUT -1
     MAINSEND 1 0
     <FXCHAIN
-      WNDRECT 56 84 716 202
+      WNDRECT 56 84 721 166
       SHOW 0
-      LASTSEL 0
+      LASTSEL 1
       DOCKED 0
+      BYPASS 0 0 0
+      <JS utility/volume_pan_sample_accurate_auto ""
+        -2 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {A5F0140C-4BCD-4957-8ED5-DE7C1687F55D}
+      WAK 0 0
       BYPASS 0 0 0
       <JS robertoporpora/OutputSwitch.jsfx ""
         0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
