@@ -1,0 +1,18 @@
+----------------------------------
+INSTALLAZIONE PROGETTO SU NUOVO PC
+----------------------------------
+
+Requisiti iniziali:
+- REAPER (v7.69 o superiore) -> https://www.reaper.fm/download.php
+- SWS / S&M Extension (v2.14.0 o superiore) -> https://sws-extension.org/
+- Git (v2.54.0 o superiore) -> https://git-scm.com/install/
+
+Installazione:
+1. Clonare il repository da linea di comando:
+    git clone https://github.com/RobertoPorpora/lets-groove-progetto-per-live
+2. Installare i plugin jsfx presenti nella cartella "custom jsfx"
+    su Windows è sufficiente eseguire il batch file "install JSFXs.bat"
+3. Creare, nella root di progetto una sotto-cartella chiamata "files" e copiare
+    i files audio necessari.
+    Questi ultimi sono riservati e non distribuiti insieme al repository.
+    Chiedere a chi di dovere...
